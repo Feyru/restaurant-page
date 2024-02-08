@@ -1,0 +1,54 @@
+        body {
+            background-image: url(https://assets.bonappetit.com/photos/5c366551f212512d0e6cefd0/16:9/w_2560%2Cc_limit/Basically-Coffee-0219-03.jpg);
+            background-size: cover;
+            margin: 0;
+        }
+        nav {
+            background-color:#F3DEBA;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            border: none;
+            background: none;
+            padding: 50px;
+            font-size: 1.3rem;
+            color: #3F2305;
+        }
+        button:hover {
+            font-size: 1.4rem;
+            text-decoration: underline;
+        }
+        #content {
+           height: calc(100vh - 70px);
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin-left: 200px;
+           margin-right: 200px;
+           
+        }
+        .intro, .about-us, .contact-info, .espresso, .americano, .latte, .cappuccino {
+            box-sizing: border-box;
+            color: #3F2305;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 50px;
+            background-color: #F3DEBA;
+            min-height: fit-content;
+            min-width: 600px;
+        }
+        .menu-container {
+            display: flex;
+            flex-direction: column;
+        }
+        p {
+            line-height: 1.5;
+        }
+       
+       
+
+        
+   
